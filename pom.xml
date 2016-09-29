@@ -18,6 +18,11 @@
     </properties>  
   
     <dependencies>  
+	    <dependency>
+	        	<groupId>com.roam.plat</groupId>
+	        	<artifactId>roam-common</artifactId>
+	        	<version>1.0.0-SNAPSHOT</version>
+	    </dependency>
         <dependency>  
             <groupId>junit</groupId>  
             <artifactId>junit</artifactId>  
@@ -162,8 +167,9 @@
             <groupId>commons-codec</groupId>  
             <artifactId>commons-codec</artifactId>  
             <version>1.9</version>  
-        </dependency>  
-          
+        </dependency>
+
+        
     </dependencies>
 	    <build>
 	      <plugins>

@@ -19,7 +19,7 @@ public class UserController {
     public ModelAndView getIndex(){  
         ModelAndView mav = new ModelAndView("index"); 
         User user = userService.selectUserById(1); 
-        mav.addObject("user", user); 
+        mav.addObject("user", user);
         return mav; 
     }    
 }  
